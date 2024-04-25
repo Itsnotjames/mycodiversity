@@ -1,0 +1,410 @@
+[
+	{
+			"blockCodes": ["mushroom-artistsconk-normal-north"],
+			"placement": "OnTrees",
+			"treeType": "Any",
+			"minRain": 0.5,
+			"minTemp": -2,
+			"maxTemp": 28,
+			"quantity": { "avg": 1, "var": 0 },
+			"chance": 8,
+			"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+			"blockCodes": ["mushroom-beefsteakfungus-normal-north"],
+			"placement": "OnTrees",
+			"treeType": "Decidious",
+			"minRain": 0.6,
+			"minTemp": 3,
+			"maxTemp": 22,
+			"quantity": { "avg": 1, "var": 0 },
+			"chance": 8,
+			"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-redbeltedconk-normal-north"],
+		"placement": "OnTrees",
+		"treeType": "Conifer",
+		"minRain": 0.2,
+		"minTemp": -2,
+		"maxTemp": 28,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 8,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-turkeytail-normal-north"],
+		"placement": "OnTrees",
+		"treeType": "Decidious",
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 28,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 12,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+
+		"blockCodes": ["mushroom-westernvarnishedconk-normal-north"],
+		"placement": "OnTrees",
+		"treeType": "Conifer",
+		"minRain": 0.25,
+		"minTemp": 0,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 8,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+
+	
+	
+	
+	{
+		"blockCodes": ["mushroom-aniseedfunnel-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.65,
+		"minTemp": -2,
+		"maxTemp": 21,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-aspenbolete-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 11,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-birchbolete-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.4,
+		"minTemp": 0,
+		"maxTemp": 22,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-blewit-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 21,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-bluechanterelle-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 10,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.64,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-candycap-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-coccora-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.4,
+		"maxRain": 0.7,
+		"minTemp": 10,
+		"maxTemp": 17,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-desertshaggymane-normal"],
+		"minRain": 0.02,
+		"maxRain": 0.36,
+		"maxForest": 0.2,
+		"minTemp": 9,
+		"maxTemp": 35,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-destroyingangel-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 25,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-dyerspolypore-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 21,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-falseearthstar-normal"],
+		"maxForest": 0.2,
+		"minRain": 0.3,
+		"minTemp": -4,
+		"maxTemp": 21,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-flattoppedclubcoral-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 21,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-friedchickenmushroom-normal"],
+		"maxForest": 0.2,
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-greenearthtongue-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.5,
+		"maxRain": 0.85,
+		"minTemp": 4,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.8,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-hawkwing-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 20,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-hedgehogmushroom-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.4,
+		"minTemp": 0,
+		"maxTemp": 22,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-honeymushroom-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 20,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-matsutake-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.35,
+		"minTemp": 5,
+		"maxTemp": 21,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-northernreddye-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 20,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-parasol-normal"],
+		"maxForest": 0.2,
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 22,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-purplefairyclub-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 11,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.8,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-queenbolete-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.5,
+		"minTemp": 12,
+		"maxTemp": 17,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-questionablestropharia-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 19,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-redramaria-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.6,
+		"minTemp": 7,
+		"maxTemp": 22,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-shaggymane-normal"],
+		"maxForest": 0.3,
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 27,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-shrimpmushroom-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-slipperyjack-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.5,
+		"minTemp": 4,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-stinkhorn-normal"],
+		"maxForest": 0.2,
+		"minRain": 0.5,
+		"minTemp": 5,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-sulfurtuft-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Any",
+		"minRain": 0.5,
+		"minTemp": 3,
+		"maxTemp": 19,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-winterchanterelle-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Conifer",
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 25,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 2,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-yellowramaria-normal"],
+		"placement": "UnderTrees",
+		"treeType": "Decidious",
+		"minRain": 0.4,
+		"minTemp": -2,
+		"maxTemp": 22,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 1.6,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	},
+	{
+		"blockCodes": ["mushroom-yellowstainer-normal"],
+		"maxForest": 0.2,
+		"minRain": 0.5,
+		"minTemp": -2,
+		"maxTemp": 18,
+		"quantity": { "avg": 1, "var": 0 },
+		"chance": 0.08,
+		"randomMapCodePool": ["mush1", "mush2", "mush3", "mush4", "mush5", "mush6", "mush7"]
+	}
+]
