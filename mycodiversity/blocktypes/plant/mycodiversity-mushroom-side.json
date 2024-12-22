@@ -1,0 +1,120 @@
+{
+	"code": "mushroom",
+	"class": "BlockMushroom",
+	"variantgroups": [
+		{ "code": "type", "states": ["artistsconk", "beefsteakfungus", "redbeltedconk", "turkeytail", "westernvarnishedconk"] },
+		{ "code": "state", "states": ["normal", "harvested"] },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" },
+	],
+	"behaviors": [{"name": "HorizontalAttachable", "properties": { "handleDrops": false } }],
+	"allowedVariants": [
+		"mushroom-artistsconk-*",
+		"mushroom-beefsteakfungus-*",
+		"mushroom-redbeltedconk-*",
+		"mushroom-turkeytail-*",
+		"mushroom-westernvarnishedconk-*",
+	],
+	"attributes": {
+		"mushroomProps": {
+			"dieWhenTempBelowByType": {
+				"*-artistsconk-*": -99,
+				"*-redbeltedconk-*": -99,
+				"*-turkeytail-*": -99,
+				"*-westernvarnishedconk-*": -99,
+				"*": 0
+			},
+			"dieAfterFruitingByType": {
+				"*-artistsconk-*": false,
+				"*-redbeltedconk-*": false,
+				"*-turkeytail-*": false,
+				"*-westernvarnishedconk-*": false,
+				"*": true
+			}
+		},
+		"forageStatAffected": true,
+		"shadeTolerant": true,
+		"nutritionPropsWhenInMeal": { 
+			"satiety": 120,
+			"foodcategory": "Vegetable",
+			"healthByType": {
+				"*-redbeltedconk-*": -2,
+				"*-artistsconk-*": -2,
+				"*-turkeytail-*": -2,
+				"*-westernvarnishedconk-*": -2,
+				"*": 0
+			}
+		}
+	},
+	"nutritionPropsByType": {
+		"*-redbeltedconk-*": { "saturation": 80, "health": -2, "foodcategory": "Vegetable" },
+		"*-artistsconk-*": { "saturation": 80, "health": -2, "foodcategory": "Vegetable" },
+		"*-turkeytail-*": { "saturation": 80, "health": -2, "foodcategory": "Vegetable" },
+		"*-westernvarnishedconk-*": { "saturation": 80, "health": -2, "foodcategory": "Vegetable" },
+		"*": { "saturation": 80, "health": 0, "foodcategory": "Vegetable" }
+	},
+	"creativeinventory": { "general": ["*-normal-north"], "flora": ["*-normal-north"] },
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-north": { "base": "mycodiversity:block/plant/mushroom/{type}/{state}*", "rotateY": 180 },
+		"*-east": { "base": "mycodiversity:block/plant/mushroom/{type}/{state}*", "rotateY": 90 },
+		"*-south": { "base": "mycodiversity:block/plant/mushroom/{type}/{state}*", "rotateY": 0 },
+		"*-west": { "base": "mycodiversity:block/plant/mushroom/{type}/{state}*", "rotateY": 270 },
+	},
+	"shapeInventory": { "base": "mycodiversity:item/food/mushroom/{type}" },
+	"doNotRenderAtLod2": true,
+	"blockmaterial": "Plant",
+	"sideopaqueByType": {
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBox": { 
+		"x1": 0.125, "y1": 0.125, "z1": 0.625, "x2": 0.875, "y2": 0.875, "z2": 1,
+		"rotateYByType": {
+			"*-north": 180,
+			"*-east": 90,
+			"*-south": 0,
+			"*-west": 270
+		}
+	},
+	"guiTransformByType": {
+		"*": {
+			"rotation": { "x": -22, "y": -78, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.13, "z": 0.47 },
+			"scale": 3
+		}
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "block/plant",
+		"break": "block/plant",
+		"hit": "block/plant",
+	},
+	"rainPermeable": true,
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 432 },
+		"transitionHours": { "avg": 72 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 1
+	}],
+	"materialDensity": 200,
+	"frostable": true,
+	"drops": [
+		{ "type": "block", "code": "mushroom-{type}-normal-north", "quantity": { "avg": 1, "var": 0 }  }
+	],
+}
